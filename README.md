@@ -42,6 +42,8 @@ When a price changes, the server adds it to the card's price history and pushes 
 
 The server needs to stay running to keep checking prices, and needs a disk that survives restarts for price history. Free plans that sleep when nobody is visiting stop the live updates.
 
+**Railway.** Create a service from this repository, attach a volume at `/data`, and set `DATA_DIR=/data` and `RAILWAY_RUN_UID=0` (the volume is owned by root). Add a public domain under Networking.
+
 **Render.** Push this folder to a GitHub repository. In Render choose New, then Blueprint, and pick the repository. `render.yaml` sets up the web service, a 1 GB disk and the settings below. Fill in `PRICECHARTING_TOKEN` when asked, or leave it empty for now.
 
 **Anywhere with Docker** (Fly.io, Railway, a VPS):
