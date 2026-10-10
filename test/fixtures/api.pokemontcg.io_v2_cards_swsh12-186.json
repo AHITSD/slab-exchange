@@ -1,0 +1,29 @@
+{
+ "data": {
+  "id": "swsh12-186",
+  "name": "Lugia V",
+  "tcgplayer": {
+   "updatedAt": "2026/10/10",
+   "url": "https://prices.pokemontcg.io/tcgplayer/x",
+   "prices": {
+    "holofoil": {
+     "low": 404.608,
+     "mid": 505.76,
+     "high": 1517.28,
+     "market": 505.76,
+     "directLow": null
+    }
+   }
+  },
+  "cardmarket": {
+   "updatedAt": "2025/11/18",
+   "prices": {
+    "averageSellPrice": 387.8,
+    "trendPrice": 387.8,
+    "avg1": 367.3,
+    "avg7": 367.3,
+    "avg30": 387.8
+   }
+  }
+ }
+}

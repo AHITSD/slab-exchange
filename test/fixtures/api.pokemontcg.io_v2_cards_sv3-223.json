@@ -1,0 +1,29 @@
+{
+ "data": {
+  "id": "sv3-223",
+  "name": "Charizard ex",
+  "tcgplayer": {
+   "updatedAt": "2026/10/10",
+   "url": "https://prices.pokemontcg.io/tcgplayer/x",
+   "prices": {
+    "holofoil": {
+     "low": 78.048,
+     "mid": 97.56,
+     "high": 292.68,
+     "market": 97.56,
+     "directLow": null
+    }
+   }
+  },
+  "cardmarket": {
+   "updatedAt": "2025/11/18",
+   "prices": {
+    "averageSellPrice": 78.53,
+    "trendPrice": 78.53,
+    "avg1": 78.73,
+    "avg7": 78.73,
+    "avg30": 78.53
+   }
+  }
+ }
+}

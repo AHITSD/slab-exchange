@@ -1,0 +1,29 @@
+{
+ "data": {
+  "id": "swsh11-186",
+  "name": "Giratina V",
+  "tcgplayer": {
+   "updatedAt": "2026/10/10",
+   "url": "https://prices.pokemontcg.io/tcgplayer/x",
+   "prices": {
+    "holofoil": {
+     "low": 604.1600000000001,
+     "mid": 755.2,
+     "high": 2265.6000000000004,
+     "market": 755.2,
+     "directLow": null
+    }
+   }
+  },
+  "cardmarket": {
+   "updatedAt": "2026/10/09",
+   "prices": {
+    "averageSellPrice": 655,
+    "trendPrice": 655,
+    "avg1": 640,
+    "avg7": 640,
+    "avg30": 655
+   }
+  }
+ }
+}

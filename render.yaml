@@ -1,0 +1,22 @@
+# Render Blueprint: New > Blueprint, pick this repository, then fill in the secret values.
+services:
+  - type: web
+    name: slab-exchange
+    runtime: node
+    plan: 0.5c-512mb         # smallest always-on instance; free instances sleep, which stops live updates
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    disk:
+      name: slab-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: DATA_DIR
+        value: /var/data
+      - key: ADMIN_TOKEN
+        generateValue: true
+      - key: PRICECHARTING_TOKEN
+        sync: false
+      - key: POKEMONTCG_API_KEY
+        sync: false

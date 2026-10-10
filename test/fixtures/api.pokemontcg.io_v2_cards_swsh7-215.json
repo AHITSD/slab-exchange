@@ -1,0 +1,29 @@
+{
+ "data": {
+  "id": "swsh7-215",
+  "name": "Umbreon VMAX",
+  "tcgplayer": {
+   "updatedAt": "2026/09/18",
+   "url": "https://prices.pokemontcg.io/tcgplayer/x",
+   "prices": {
+    "holofoil": {
+     "low": 1826.512,
+     "mid": 2283.14,
+     "high": 6849.42,
+     "market": 2283.14,
+     "directLow": null
+    }
+   }
+  },
+  "cardmarket": {
+   "updatedAt": "2025/11/18",
+   "prices": {
+    "averageSellPrice": 1579.48,
+    "trendPrice": 1579.48,
+    "avg1": 1674.5,
+    "avg7": 1674.5,
+    "avg30": 1579.48
+   }
+  }
+ }
+}

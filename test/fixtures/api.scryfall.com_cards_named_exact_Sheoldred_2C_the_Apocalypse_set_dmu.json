@@ -1,0 +1,15 @@
+{
+ "object": "card",
+ "prices": {
+  "usd": "92.3",
+  "usd_foil": null,
+  "eur": "79.9",
+  "eur_foil": null,
+  "tix": null
+ },
+ "purchase_uris": {
+  "tcgplayer": "https://www.tcgplayer.com/x",
+  "cardmarket": "https://www.cardmarket.com/x"
+ },
+ "scryfall_uri": "https://scryfall.com/card/x"
+}
